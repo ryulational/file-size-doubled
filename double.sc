@@ -1,4 +1,4 @@
-//> using lib "com.lihaoyi::os-lib:0.9.0"
+//> using lib "com.lihaoyi::os-lib:0.9.1"
 //> using lib "org.typelevel::squants:1.8.3"
 
 import os._
