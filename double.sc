@@ -4,9 +4,10 @@
 import os._
 import squants.information.{Bytes, Kilobytes, Megabytes, Gigabytes}
 
-val file = os.Path(args(0))
+val file = args(0)
+val path = os.pwd / file
 
-val size: Double = os.size(file).toDouble
+val size: Double = os.size(path).toDouble
 val sizeDoubled: Double = size * 2
 
 val bytes = Bytes(sizeDoubled)
